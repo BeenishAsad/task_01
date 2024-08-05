@@ -1,0 +1,116 @@
+.Left-Side,.Right-Side{
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4b41a;
+    box-shadow: 0 0 20px rgba(169, 146, 131, 0.1);
+}
+
+.Left-Side{
+  
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+.Right-Side{
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.Left-Side p{
+    padding-top: 10px;
+    color: black;
+}
+.Left-Side ul{
+    list-style: none;
+    padding: 0;
+    padding-top: 50px;
+    color: black;
+}
+.Left-Side li{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.Left-Side li::before{
+    content:'✔' ;
+    margin-right: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+.form-logo{
+    display: flex;
+    border-radius: 110px;
+    width: 50px;
+    padding: 10px;
+    
+
+}
+
+/* Right Side css */
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    color: black;
+
+}
+
+.Right-Side form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    
+}
+
+.email, .password{
+    margin-bottom:15px ;
+    width: 80%;
+    height: 6vh;
+    border-radius: 15px;
+    background-color: #eae0d6;
+    padding-left: 10px;
+}
+
+.forgot-password{
+    margin-top: 1px;
+    margin-left: 200px;
+    font-size: 14px;
+}
+
+.login-button{
+    margin-bottom:20px ;
+    width: 80%;
+    height: 7vh;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    color: black;
+}
+
+
+.alternative-login{
+    text-align: center;
+    margin: 20px;
+}
+.google-login, .facebook-login{
+    margin-bottom:20px ;
+    width: 100%;
+    height: 7vh;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    color: black;
+}
+.create-account{
+    padding-top: 25px;
+    padding-left: 200px;
+}
+
